@@ -1,0 +1,26 @@
+#header-containers {
+    position: fixed;
+    background-color: #e3eaf0;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    align-items: center;
+    .app-logo{
+        cursor: pointer;
+        margin-left: 250px;
+        img {
+            height: 80px;
+        }
+    }
+
+    .user-button {
+        margin-right: 250px;
+        width: 260px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+}
