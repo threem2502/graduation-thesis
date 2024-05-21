@@ -1,0 +1,106 @@
+.review-ai-containers {
+    width: 100%;
+    position: relative;
+    top: 120px;
+    margin: 0px 8%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding-top: 120px;
+    height: 455px;
+    .image-col {
+        flex: 0 0 30%;
+        max-width: 30%;
+        text-align: center;
+        .product-img {
+            padding: 70px 50px;
+            border: 1px solid #E4E4E4;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            img {
+                width: 188px;
+                height: 188px;
+            }
+            
+        }
+        .more-product-img {
+            display: flex;
+            justify-content: center;
+            
+            .thumbnail-img {
+                width: 70px;
+                height: 70px;
+                margin: 5px;
+                border-radius: 10px;
+                border: 1px solid rgb(215, 214, 214);
+            }
+        }
+        
+    }
+    
+    .review-col {
+        color: #4007E4;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        .point-review {
+            font-size: 72px;
+            font-weight: bold;
+        }
+
+        .buy-btn{
+            background-color: #4007E4;
+            color: white;
+            font-weight: bold;
+            border-radius: 0;
+            text-transform: uppercase;
+            font-size: 13px;
+            width: 200px;
+            height: 40px;
+        }
+    }
+
+    .info-col {
+        display: flex;
+        flex-direction: column;
+        color: #213871;
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+        line-height: 24px;
+        gap: 30px;
+        .product-name{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+        }
+        .product-brand {
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .product-type {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .product-price .product-type {
+            font-size: 16px;
+        }
+        .product-describe{
+            font-size: 14px;
+            line-height: 22px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 5;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* Optional: Limit the width to demonstrate the effect */
+            max-width: 70%;
+            /* Optional: Fixed height based on the line height */
+            line-height: 1.5; /* Adjust as needed */
+            max-height: calc(1.5em * 5); /* 5 lines * line-height */
+        }
+
+    }
+}
