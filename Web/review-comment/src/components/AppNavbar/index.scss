@@ -1,5 +1,6 @@
 .navbar-containers {
     cursor: pointer;
+    z-index: 10000 !important;
     position: fixed;
     background-color: #fff3eb;
     margin-top: 80px;
@@ -16,6 +17,7 @@
         text-align: center;
         align-content: center;
         .navbar-content {
+            text-decoration: none;
             display: inline-block;
             color: #213871;
             width: 100%;

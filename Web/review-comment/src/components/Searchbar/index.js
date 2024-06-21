@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AudioOutlined } from "@ant-design/icons";
+import { Outlined } from "@ant-design/icons";
 import { Input } from "antd";
 import './index.scss'
 class SearchBar extends Component {

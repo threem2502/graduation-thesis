@@ -1,13 +1,12 @@
 .review-ai-containers {
     width: 100%;
-    position: relative;
-    top: 120px;
     margin: 0px 8%;
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
     gap: 5%;
     padding-top: 120px;
-    height: 455px;
+    height: calc(100vh - 240px);
     .image-col {
         flex: 0 0 30%;
         max-width: 30%;

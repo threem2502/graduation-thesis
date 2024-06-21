@@ -1,0 +1,43 @@
+.about-us-wrapper {
+  margin-top: 220px;
+  width: 100%;
+  color: #213871;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  min-width: 995px;
+  .about-us-left {
+    background-color: #F2FAF8;
+    padding: 20px;
+    width: 10%;
+    min-width: 295px;
+    height: 216px;
+    margin-left: 100px;
+  }
+  .about-us-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    margin-right: 100px;
+  }
+}
+
+.title-big {
+  font-size: 40px !important;
+}
+.about-us-title {
+  font-size: 24px;
+  display: block;
+  line-height: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.about-us-text {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 16px;
+  line-height: 22px;
+  text-align: justify;
+}
